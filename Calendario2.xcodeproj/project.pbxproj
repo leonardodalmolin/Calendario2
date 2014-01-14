@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120DDFDB1885AE41000586A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120DDFC71885AE41000586A9 /* Main.storyboard */; };
+		120DDFDC1885AE41000586A9 /* Calendario2-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 120DDFC91885AE41000586A9 /* Calendario2-Info.plist */; };
+		120DDFDD1885AE41000586A9 /* CLDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DDFCC1885AE41000586A9 /* CLDAppDelegate.m */; };
+		120DDFDE1885AE41000586A9 /* CLDDescricaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DDFCE1885AE41000586A9 /* CLDDescricaoViewController.m */; };
+		120DDFDF1885AE41000586A9 /* CLDDiasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DDFD01885AE41000586A9 /* CLDDiasViewController.m */; };
+		120DDFE01885AE41000586A9 /* CLDInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DDFD21885AE41000586A9 /* CLDInfoViewController.m */; };
+		120DDFE11885AE41000586A9 /* CLDTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DDFD41885AE41000586A9 /* CLDTViewController.m */; };
+		120DDFE21885AE41000586A9 /* CLDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DDFD61885AE41000586A9 /* CLDViewController.m */; };
+		120DDFE31885AE41000586A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 120DDFD71885AE41000586A9 /* InfoPlist.strings */; };
+		120DDFE41885AE41000586A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120DDFD91885AE41000586A9 /* Images.xcassets */; };
+		120DDFE51885AE41000586A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 120DDFDA1885AE41000586A9 /* main.m */; };
 		122717FB18858DF1003909AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122717FA18858DF1003909AF /* Foundation.framework */; };
 		122717FD18858DF1003909AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122717FC18858DF1003909AF /* CoreGraphics.framework */; };
 		122717FF18858DF2003909AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122717FE18858DF2003909AF /* UIKit.framework */; };
-		1227180518858DF2003909AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1227180318858DF2003909AF /* InfoPlist.strings */; };
-		1227180718858DF2003909AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1227180618858DF2003909AF /* main.m */; };
-		1227180B18858DF2003909AF /* CLDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1227180A18858DF2003909AF /* CLDAppDelegate.m */; };
-		1227180E18858DF2003909AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1227180C18858DF2003909AF /* Main.storyboard */; };
-		1227181118858DF2003909AF /* CLDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1227181018858DF2003909AF /* CLDViewController.m */; };
-		1227181318858DF2003909AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1227181218858DF2003909AF /* Images.xcassets */; };
 		1227181A18858DF2003909AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1227181918858DF2003909AF /* XCTest.framework */; };
 		1227181B18858DF2003909AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122717FA18858DF1003909AF /* Foundation.framework */; };
 		1227181C18858DF2003909AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122717FE18858DF2003909AF /* UIKit.framework */; };
@@ -34,20 +39,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120DDFC81885AE41000586A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		120DDFC91885AE41000586A9 /* Calendario2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Calendario2-Info.plist"; sourceTree = "<group>"; };
+		120DDFCA1885AE41000586A9 /* Calendario2-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Calendario2-Prefix.pch"; sourceTree = "<group>"; };
+		120DDFCB1885AE41000586A9 /* CLDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDAppDelegate.h; sourceTree = "<group>"; };
+		120DDFCC1885AE41000586A9 /* CLDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDAppDelegate.m; sourceTree = "<group>"; };
+		120DDFCD1885AE41000586A9 /* CLDDescricaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDDescricaoViewController.h; sourceTree = "<group>"; };
+		120DDFCE1885AE41000586A9 /* CLDDescricaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDDescricaoViewController.m; sourceTree = "<group>"; };
+		120DDFCF1885AE41000586A9 /* CLDDiasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDDiasViewController.h; sourceTree = "<group>"; };
+		120DDFD01885AE41000586A9 /* CLDDiasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDDiasViewController.m; sourceTree = "<group>"; };
+		120DDFD11885AE41000586A9 /* CLDInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDInfoViewController.h; sourceTree = "<group>"; };
+		120DDFD21885AE41000586A9 /* CLDInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDInfoViewController.m; sourceTree = "<group>"; };
+		120DDFD31885AE41000586A9 /* CLDTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDTViewController.h; sourceTree = "<group>"; };
+		120DDFD41885AE41000586A9 /* CLDTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDTViewController.m; sourceTree = "<group>"; };
+		120DDFD51885AE41000586A9 /* CLDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDViewController.h; sourceTree = "<group>"; };
+		120DDFD61885AE41000586A9 /* CLDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDViewController.m; sourceTree = "<group>"; };
+		120DDFD81885AE41000586A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		120DDFD91885AE41000586A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		120DDFDA1885AE41000586A9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		122717F718858DF1003909AF /* Calendario2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendario2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		122717FA18858DF1003909AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		122717FC18858DF1003909AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		122717FE18858DF2003909AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1227180218858DF2003909AF /* Calendario2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calendario2-Info.plist"; sourceTree = "<group>"; };
-		1227180418858DF2003909AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1227180618858DF2003909AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1227180818858DF2003909AF /* Calendario2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calendario2-Prefix.pch"; sourceTree = "<group>"; };
-		1227180918858DF2003909AF /* CLDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDAppDelegate.h; sourceTree = "<group>"; };
-		1227180A18858DF2003909AF /* CLDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDAppDelegate.m; sourceTree = "<group>"; };
-		1227180D18858DF2003909AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1227180F18858DF2003909AF /* CLDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLDViewController.h; sourceTree = "<group>"; };
-		1227181018858DF2003909AF /* CLDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLDViewController.m; sourceTree = "<group>"; };
-		1227181218858DF2003909AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1227181818858DF2003909AF /* Calendario2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calendario2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1227181918858DF2003909AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1227182118858DF2003909AF /* Calendario2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calendario2Tests-Info.plist"; sourceTree = "<group>"; };
@@ -79,10 +92,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120DDFC61885AE41000586A9 /* Calendario2 */ = {
+			isa = PBXGroup;
+			children = (
+				120DDFC71885AE41000586A9 /* Main.storyboard */,
+				120DDFC91885AE41000586A9 /* Calendario2-Info.plist */,
+				120DDFCA1885AE41000586A9 /* Calendario2-Prefix.pch */,
+				120DDFCB1885AE41000586A9 /* CLDAppDelegate.h */,
+				120DDFCC1885AE41000586A9 /* CLDAppDelegate.m */,
+				120DDFCD1885AE41000586A9 /* CLDDescricaoViewController.h */,
+				120DDFCE1885AE41000586A9 /* CLDDescricaoViewController.m */,
+				120DDFCF1885AE41000586A9 /* CLDDiasViewController.h */,
+				120DDFD01885AE41000586A9 /* CLDDiasViewController.m */,
+				120DDFD11885AE41000586A9 /* CLDInfoViewController.h */,
+				120DDFD21885AE41000586A9 /* CLDInfoViewController.m */,
+				120DDFD31885AE41000586A9 /* CLDTViewController.h */,
+				120DDFD41885AE41000586A9 /* CLDTViewController.m */,
+				120DDFD51885AE41000586A9 /* CLDViewController.h */,
+				120DDFD61885AE41000586A9 /* CLDViewController.m */,
+				120DDFD71885AE41000586A9 /* InfoPlist.strings */,
+				120DDFD91885AE41000586A9 /* Images.xcassets */,
+				120DDFDA1885AE41000586A9 /* main.m */,
+			);
+			path = Calendario2;
+			sourceTree = "<group>";
+		};
 		122717EE18858DF1003909AF = {
 			isa = PBXGroup;
 			children = (
-				1227180018858DF2003909AF /* Calendario2 */,
+				120DDFC61885AE41000586A9 /* Calendario2 */,
 				1227181F18858DF2003909AF /* Calendario2Tests */,
 				122717F918858DF1003909AF /* Frameworks */,
 				122717F818858DF1003909AF /* Products */,
@@ -107,31 +145,6 @@
 				1227181918858DF2003909AF /* XCTest.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1227180018858DF2003909AF /* Calendario2 */ = {
-			isa = PBXGroup;
-			children = (
-				1227180918858DF2003909AF /* CLDAppDelegate.h */,
-				1227180A18858DF2003909AF /* CLDAppDelegate.m */,
-				1227180C18858DF2003909AF /* Main.storyboard */,
-				1227180F18858DF2003909AF /* CLDViewController.h */,
-				1227181018858DF2003909AF /* CLDViewController.m */,
-				1227181218858DF2003909AF /* Images.xcassets */,
-				1227180118858DF2003909AF /* Supporting Files */,
-			);
-			path = Calendario2;
-			sourceTree = "<group>";
-		};
-		1227180118858DF2003909AF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1227180218858DF2003909AF /* Calendario2-Info.plist */,
-				1227180318858DF2003909AF /* InfoPlist.strings */,
-				1227180618858DF2003909AF /* main.m */,
-				1227180818858DF2003909AF /* Calendario2-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		1227181F18858DF2003909AF /* Calendario2Tests */ = {
@@ -229,9 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1227181318858DF2003909AF /* Images.xcassets in Resources */,
-				1227180518858DF2003909AF /* InfoPlist.strings in Resources */,
-				1227180E18858DF2003909AF /* Main.storyboard in Resources */,
+				120DDFE41885AE41000586A9 /* Images.xcassets in Resources */,
+				120DDFE31885AE41000586A9 /* InfoPlist.strings in Resources */,
+				120DDFDB1885AE41000586A9 /* Main.storyboard in Resources */,
+				120DDFDC1885AE41000586A9 /* Calendario2-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +264,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1227181118858DF2003909AF /* CLDViewController.m in Sources */,
-				1227180B18858DF2003909AF /* CLDAppDelegate.m in Sources */,
-				1227180718858DF2003909AF /* main.m in Sources */,
+				120DDFE21885AE41000586A9 /* CLDViewController.m in Sources */,
+				120DDFE11885AE41000586A9 /* CLDTViewController.m in Sources */,
+				120DDFDD1885AE41000586A9 /* CLDAppDelegate.m in Sources */,
+				120DDFE01885AE41000586A9 /* CLDInfoViewController.m in Sources */,
+				120DDFDE1885AE41000586A9 /* CLDDescricaoViewController.m in Sources */,
+				120DDFE51885AE41000586A9 /* main.m in Sources */,
+				120DDFDF1885AE41000586A9 /* CLDDiasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,20 +293,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1227180318858DF2003909AF /* InfoPlist.strings */ = {
+		120DDFC71885AE41000586A9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1227180418858DF2003909AF /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1227180C18858DF2003909AF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1227180D18858DF2003909AF /* Base */,
+				120DDFC81885AE41000586A9 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		120DDFD71885AE41000586A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120DDFD81885AE41000586A9 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		1227182218858DF2003909AF /* InfoPlist.strings */ = {
@@ -461,6 +479,7 @@
 				1227182B18858DF2003909AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1227182C18858DF2003909AF /* Build configuration list for PBXNativeTarget "Calendario2Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +488,7 @@
 				1227182E18858DF2003909AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
