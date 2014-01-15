@@ -12,5 +12,6 @@
 
 @property (nonatomic) NSInteger mes;
 @property (nonatomic) NSInteger dia;
+@property (nonatomic) NSArray *fer;
 
 @end

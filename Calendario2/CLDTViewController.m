@@ -78,8 +78,7 @@
     if ([[segue identifier] isEqualToString:@"gotoDias"]) {
         CLDDiasViewController *cldd = (CLDDiasViewController *)segue.destinationViewController;
         NSIndexPath *idxPath = [self.tableView indexPathForCell:sender];
-        
-        NSArray *arrayAux = m;
+
         cldd.title = [m objectAtIndex:idxPath.row];
     }
 }
