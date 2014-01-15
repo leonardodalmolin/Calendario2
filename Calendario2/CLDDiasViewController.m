@@ -162,7 +162,7 @@
             [dia setTag:i];
             for (int j = 0; j < feriados.count; j++) {
                 if ([feriados[j] integerValue] == i ) {
-                    [dia setBackgroundColor:[UIColor colorWithRed:34.0/255.0 green:34.0/255.0 blue:34.0/255.0 alpha:1.0]];
+                    [dia setBackgroundColor:[UIColor lightGrayColor]];
                 }
             }
             [dia addTarget:self action:@selector(actDia:) forControlEvents:UIControlEventTouchUpInside];

@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-638" y="346"/>
         </scene>
-        <!--Info View Controller - Item 2-->
+        <!--Info View Controller - Info-->
         <scene sceneID="skG-GM-Gfl">
             <objects>
                 <viewController id="dkF-ww-I2Z" customClass="CLDInfoViewController" sceneMemberID="viewController">
@@ -35,8 +35,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnK-JH-XQ0">
-                                <rect key="frame" x="139" y="273" width="42" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leonardo Gisler Dalmolin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnK-JH-XQ0">
+                                <rect key="frame" x="63" y="273" width="194" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -45,17 +45,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="6Lv-Hw-hj8"/>
+                    <tabBarItem key="tabBarItem" title="Info" id="6Lv-Hw-hj8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sQy-5s-keZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-98" y="708"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - Calendário-->
         <scene sceneID="au5-fL-niy">
             <objects>
                 <navigationController definesPresentationContext="YES" id="NB4-Vu-vpp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="1GP-ZK-UGO"/>
+                    <tabBarItem key="tabBarItem" title="Calendário" id="1GP-ZK-UGO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cV6-9J-cTg">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
